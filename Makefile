@@ -13,17 +13,18 @@ endif
 PGM=alarmclk
 OBJS=alarmclk.o 12hourclk.o clkfreq.o
 
-PGM2=cpufreq
-OBJS2=clkfreq.o
+PGM2=calibrate
+OBJS2=calibrate.o
 
 CC=cl65
 AS=ca65
+LD=ld65
 
 CFLAGS=-t $(CC65_TARGET) -O
 ASFLAGS=-t $(CC65_TARGET)
 LDFLAGS=-t $(CC65_TARGET)
 
-DISK_VOL=ALARMCLK
+DISK_VOL=alarmclk
 DISK=$(DISK_VOL).dsk
 
 AC=java -jar lib/AppleCommander-1.3.5.14.jar
@@ -36,12 +37,14 @@ all: $(DISK)
 $(DISK): $(PGM) $(PGM2)
 	$(AC) -d $(DISK) $<
 	$(AC) -cc65 $(DISK) $< BIN < $<
+	$(AC) -d $(DISK) $(PGM2)
+	$(AC) -cc65 $(DISK) $(PGM2) BIN < $(PGM2)
 
 $(PGM): $(OBJS)
 	$(CC) $(LDFLAGS) -o $@ $^
 
-$(PGM2): clkfreq.s
-	$(AS) $(ASFLAGS) -o $@ $^
+$(PGM2): $(OBJS2)
+	$(CC) $(LDFLAGS) -o $@ $^
 
 # Compile and assemble rules use the defuault rules after CC and CFLAGS
 # are set.

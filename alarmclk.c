@@ -5,8 +5,8 @@
 #include <conio.h>      /* clrscr, kbhit */
 
 #include "12hourclk.h"
-extern void clkfreq();
-extern uint8_t ticks[4];
+extern void ClockFreq();
+extern uint8_t Ticks[4];
 
 #define CLOCK_FREQUENCY 1023000L
 #define CYCLES_PER_NOOP 2
@@ -23,17 +23,18 @@ static twleve_hour_clock_t alarm_time;
 
 void main(void)
 {
-    clkfreq();
+    ClockFreq();
     printf("%c%c.%c%c%c%c%c%c MHz\n", 
-        ticks[0] & 0x70,
-        ticks[0] & 0x07,
-        ticks[1] & 0x70,
-        ticks[1] & 0x07,
-        ticks[2] & 0x70,
-        ticks[2] & 0x07,
-        ticks[3] & 0x70,
-        ticks[3] & 0x07);
+        Ticks[0] & 0x70,
+        Ticks[0] & 0x07,
+        Ticks[1] & 0x70,
+        Ticks[1] & 0x07,
+        Ticks[2] & 0x70,
+        Ticks[2] & 0x07,
+        Ticks[3] & 0x70,
+        Ticks[3] & 0x07);
 
+    clrscr();
     read_inputs();
 
     clrscr();
@@ -46,8 +47,10 @@ void main(void)
 
 void read_inputs()
 {
-    puts("Current Time");
-    read_interactively(&curr_time);
+    if (! load_system_time(&curr_time)) {
+        puts("Current Time");
+        read_interactively(&curr_time);
+    }
     puts("Alarm Time");
     read_interactively(&alarm_time);
 }

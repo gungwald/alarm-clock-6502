@@ -1,6 +1,19 @@
 #include <stdio.h>      /* printf, scanf */
+#include <stdbool.h>    /* bool */
+#include <string.h>     /* strerror */
+#include <time.h>       /* time_t, time, localtime */
 #include <ctype.h>      /* toupper */
+#include <errno.h>      /* errno */
+
 #include "12hourclk.h"
+
+#define TIME_ERR_RESULT         ((time_t) -1)
+#define LOCALTIME_ERR_RESULT    NULL
+#define ERR_MSG_SIZE            128
+
+static void set_err_msg(char *prefix, int errno);
+
+static char G_err_msg[ERR_MSG_SIZE];
 
 static char *meridiem_text(meridiem_t m)
 {
@@ -10,6 +23,49 @@ static char *meridiem_text(meridiem_t m)
     else {
         return "pm";
     }
+}
+
+bool set_clock(twleve_hour_clock_t *clock, struct tm *t)
+{
+    clock->seconds = t->tm_sec;
+    clock->minutes = t->tm_min;
+    if (t->tm_hour == 0) {
+        clock->hours = 12;
+        clock->meridiem = ANTE_MERIDIEM;
+    }
+    else if (t->tm_hour < 12) {
+        clock->meridiem = ANTE_MERIDIEM;
+    }
+    else if (t->tm_hour == 12) {
+        clock->meridiem = POST_MERIDIEM;
+    }
+    else {
+        clock->hours = t->tm_hour - 12;
+        clock->meridiem = POST_MERIDIEM;
+    }
+    return true;
+}
+
+
+void set_err_msg(char *what_failed, int err_code)
+{
+    snprintf(G_err_msg, ERR_MSG_SIZE, "%s: %s", what_failed, strerror(err_code));
+}
+
+bool load_system_time(twleve_hour_clock_t *clock)
+{
+    time_t now;
+    bool is_successful = false; /* It will not be successful until it is. */
+    struct tm *curr_time;
+
+    if (time(&now) != TIME_ERR_RESULT)
+        if ((curr_time = localtime(&now)) != LOCALTIME_ERR_RESULT)
+            is_successful = set_clock(clock, curr_time);
+        else 
+            set_err_msg("Localtime function failed", errno);
+    else
+        set_err_msg("Time function failed", errno);
+    return is_successful;
 }
 
 void read_interactively(twleve_hour_clock_t *clock)

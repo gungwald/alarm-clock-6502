@@ -15,6 +15,7 @@ typedef struct {
 } twleve_hour_clock_t;
 
 extern void read_interactively(twleve_hour_clock_t *clock);
+extern bool load_system_time(twleve_hour_clock_t *clock);
 extern void add_one_second(twleve_hour_clock_t *clock);
 extern void add_seconds(twleve_hour_clock_t *clock, uint8_t seconds);
 extern void print_time(twleve_hour_clock_t *clock);
