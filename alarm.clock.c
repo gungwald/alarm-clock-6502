@@ -3,67 +3,64 @@
 #include <stdbool.h>    /* true */
 #include <ctype.h>      /* toupper */
 #include <conio.h>      /* clrscr, kbhit */
+#include <time.h>       /* time_t, struct tm */
 
-#include "12hourclk.h"
-extern void ClockFreq();
-extern uint8_t Ticks[4];
+#include "noslotclock.h"
+#include "time.h"
+#include "trace.h"
 
 #define CLOCK_FREQUENCY 1023000L
 #define CYCLES_PER_NOOP 2
 #define NOOPS_PER_SEC 511500
 #define CTRL_C  '\x03'
 #define ESC     '\x1B'
+#define FMTD_TIME_SIZE 16
 
 void read_inputs(void);
-void elapse_one_second(void);
+void sleep_one_second(void);
+void do_nothing_for_one_second(void);
 void run_clock(void);
 
-static twleve_hour_clock_t curr_time;
-static twleve_hour_clock_t alarm_time;
+static struct tm G_Current_Time;
+static struct tm G_Alarm_Time;
 
 void main(void)
 {
-    ClockFreq();
-    printf("%c%c.%c%c%c%c%c%c MHz\n", 
-        Ticks[0] & 0x70,
-        Ticks[0] & 0x07,
-        Ticks[1] & 0x70,
-        Ticks[1] & 0x07,
-        Ticks[2] & 0x70,
-        Ticks[2] & 0x07,
-        Ticks[3] & 0x70,
-        Ticks[3] & 0x07);
+    TRACE_ENTER("main");
 
+    load_driver();
     clrscr();
     read_inputs();
 
     clrscr();
     printf("\nAlarm Time:   ");
-    print_time(&alarm_time);
+    print_12_hour_time(&G_Alarm_Time);
+
     printf("\nCurrent Time: ");
 
     run_clock();
+
+    TRACE_EXIT("main");
 }
 
 void read_inputs()
 {
-    if (! load_system_time(&curr_time)) {
-        puts("Current Time");
-        read_interactively(&curr_time);
-    }
+    TRACE_ENTER("read_inputs");
+    read_time(&G_Current_Time);
     puts("Alarm Time");
-    read_interactively(&alarm_time);
+    read_time_interactively(&G_Alarm_Time);
+    TRACE_EXIT("read_inputs");
 }
 
 void run_clock()
 {
     char c;
 
-    print_time(&curr_time);
+    TRACE_ENTER("run_clock");
+    print_12_hour_time(&G_Current_Time);
     while (true) {
-        elapse_one_second();
-        add_one_second(&curr_time);
-        reprint_time(&curr_time);
+        sleep_one_second();
+        reprint_12_hour_time(&G_Current_Time);
         if (kbhit()) {
             c = cgetc();
             if (c == ESC || toupper(c) == 'Q' || c == CTRL_C) {
@@ -72,16 +69,35 @@ void run_clock()
             }
         }
     }
+    TRACE_EXIT("run_clock");
 }
 
-void elapse_one_second()
+/**
+ * Waits for one second. Modifies the global G_Current_Time.
+ */
+void sleep_one_second()
 {
-    int i;
+    time_t old_time;
+
+    TRACE_ENTER("sleep_one_second");
+    old_time = mktime(read_time(&G_Current_Time));
+
+    while (mktime(read_time(&G_Current_Time)) <= old_time) {
+        do_nothing_for_one_second();
+    }
+    TRACE_EXIT("sleep_one_second");
+}
+
+void do_nothing_for_one_second()
+{
+    int i = 0;
     int max_loops;
 
+    TRACE_ENTER("do_nothing_for_one_second");
     max_loops = NOOPS_PER_SEC / 250;
 
-    for (i = 0; i < max_loops; ++i) {
+    for ( ; i < max_loops; ++i) {
+
         asm("nop");
         asm("nop");
         asm("nop");
@@ -333,5 +349,6 @@ void elapse_one_second()
         asm("nop");
         asm("nop");
     }
+    TRACE_EXIT("do_nothing_for_one_second");
 }
 

@@ -1,0 +1,871 @@
+Modules list:
+-------------
+alarmclock.o:
+    CODE              Offs=000000  Size=0001B9  Align=00001  Fill=0000
+    RODATA            Offs=000000  Size=000038  Align=00001  Fill=0000
+    BSS               Offs=000000  Size=00000A  Align=00001  Fill=0000
+thclock.o:
+    CODE              Offs=0001B9  Size=0002F1  Align=00001  Fill=0000
+    RODATA            Offs=000038  Size=000041  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(_file.o):
+    DATA              Offs=000000  Size=00001E  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(_hextab.o):
+    RODATA            Offs=000079  Size=000010  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(_longminstr.o):
+    RODATA            Offs=000089  Size=00000C  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(_oserror.o):
+    BSS               Offs=00000A  Size=000001  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(_printf.o):
+    CODE              Offs=0004AA  Size=0003A5  Align=00001  Fill=0000
+    BSS               Offs=00000B  Size=00002B  Align=00001  Fill=0000
+    DATA              Offs=00001E  Size=000003  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(_scanf.o):
+    CODE              Offs=00084F  Size=000770  Align=00001  Fill=0000
+    RODATA            Offs=000095  Size=000008  Align=00001  Fill=0000
+    BSS               Offs=000036  Size=000042  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(_seterrno.o):
+    CODE              Offs=000FBF  Size=000009  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(addeqsp.o):
+    CODE              Offs=000FC8  Size=000011  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(addysp.o):
+    CODE              Offs=000FD9  Size=00000E  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(along.o):
+    CODE              Offs=000FE7  Size=000012  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(axlong.o):
+    CODE              Offs=000FF9  Size=000012  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(callmain.o):
+    CODE              Offs=00100B  Size=000017  Align=00001  Fill=0000
+    BSS               Offs=000078  Size=000004  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(cgetc.o):
+    CODE              Offs=001022  Size=000012  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(clrscr.o):
+/home/bill/opt/cc65/lib/apple2enh.lib(compl.o):
+    CODE              Offs=001034  Size=000009  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(condes.o):
+    CODE              Offs=00103D  Size=00000C  Align=00001  Fill=0000
+    DATA              Offs=000021  Size=000025  Align=00001  Fill=0000
+    INIT              Offs=000000  Size=00000C  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(cout.o):
+    LOWCODE           Offs=000000  Size=00000A  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(crt0.o):
+    CODE              Offs=001049  Size=000012  Align=00001  Fill=0000
+    RODATA            Offs=00009D  Size=000007  Align=00001  Fill=0000
+    BSS               Offs=00007C  Size=000003  Align=00001  Fill=0000
+    DATA              Offs=000046  Size=000003  Align=00001  Fill=0000
+    STARTUP           Offs=000000  Size=00006A  Align=00001  Fill=0000
+    INIT              Offs=00000C  Size=00004E  Align=00001  Fill=0000
+    ZPSAVE            Offs=000000  Size=00001A  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(ctype.o):
+    RODATA            Offs=0000A4  Size=000100  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(decaxy.o):
+    CODE              Offs=00105B  Size=000009  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(decsp1.o):
+    CODE              Offs=001064  Size=000009  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(decsp3.o):
+    CODE              Offs=00106D  Size=00000D  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(decsp4.o):
+    CODE              Offs=00107A  Size=00000D  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(decsp6.o):
+    CODE              Offs=001087  Size=00000D  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(dosdetect.o):
+    BSS               Offs=00007F  Size=000001  Align=00001  Fill=0000
+    INIT              Offs=00005A  Size=000014  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(errno.o):
+    CODE              Offs=001094  Size=000018  Align=00001  Fill=0000
+    BSS               Offs=000080  Size=000002  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(exehdr.o):
+    EXEHDR            Offs=000000  Size=000004  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(fgetc.o):
+    CODE              Offs=0010AC  Size=000084  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(filedes.o):
+    CODE              Offs=001130  Size=000016  Align=00001  Fill=0000
+    DATA              Offs=000049  Size=000020  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(fmisc.o):
+    CODE              Offs=001146  Size=000044  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(fwrite.o):
+    CODE              Offs=00118A  Size=00007B  Align=00001  Fill=0000
+    BSS               Offs=000082  Size=000002  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(home.o):
+    LOWCODE           Offs=00000A  Size=00000A  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(icmp.o):
+    CODE              Offs=001205  Size=00002E  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(incsp1.o):
+    CODE              Offs=001233  Size=000007  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(incsp2.o):
+    CODE              Offs=00123A  Size=000015  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(incsp3.o):
+    CODE              Offs=00124F  Size=000005  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(incsp4.o):
+    CODE              Offs=001254  Size=000005  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(incsp5.o):
+    CODE              Offs=001259  Size=000005  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(incsp6.o):
+    CODE              Offs=00125E  Size=000005  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(incsp8.o):
+    CODE              Offs=001263  Size=000005  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(isdigit.o):
+    CODE              Offs=001268  Size=00000F  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(isspace.o):
+    CODE              Offs=001277  Size=00000F  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(isxdigit.o):
+    CODE              Offs=001286  Size=00000F  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(jmpvec.o):
+    DATA              Offs=000069  Size=000003  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(kbhit.o):
+    CODE              Offs=001295  Size=000009  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(ladd.o):
+    CODE              Offs=00129E  Size=000024  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(ldaxi.o):
+    CODE              Offs=0012C2  Size=00000D  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(ldaxsp.o):
+    CODE              Offs=0012CF  Size=000009  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(leaaxsp.o):
+    CODE              Offs=0012D8  Size=00000C  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(lmul.o):
+    CODE              Offs=0012E4  Size=00005C  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(lneg.o):
+    CODE              Offs=001340  Size=00001E  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(longjmp.o):
+    CODE              Offs=00135E  Size=000030  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(lpush.o):
+    CODE              Offs=00138E  Size=000021  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(ltoa.o):
+    CODE              Offs=0013AF  Size=0000AF  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(makebool.o):
+    CODE              Offs=00145E  Size=000031  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(mli.o):
+    BSS               Offs=000084  Size=000012  Align=00001  Fill=0000
+    DATA              Offs=00006C  Size=000016  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(mul.o):
+    CODE              Offs=00148F  Size=000045  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(mul8.o):
+    CODE              Offs=0014D4  Size=00003A  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(mulax10.o):
+    CODE              Offs=00150E  Size=000019  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(oserror.o):
+    CODE              Offs=001527  Size=000016  Align=00001  Fill=0000
+    RODATA            Offs=0001A4  Size=000030  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(popsreg.o):
+    CODE              Offs=00153D  Size=00000F  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(printf.o):
+    CODE              Offs=00154C  Size=000033  Align=00001  Fill=0000
+    BSS               Offs=000096  Size=000001  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(push1.o):
+    CODE              Offs=00157F  Size=000005  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(pusha.o):
+    CODE              Offs=001584  Size=000016  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(pushax.o):
+    CODE              Offs=00159A  Size=00001A  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(pushwsp.o):
+    CODE              Offs=0015B4  Size=00001C  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(puts.o):
+    CODE              Offs=0015D0  Size=000065  Align=00001  Fill=0000
+    DATA              Offs=000082  Size=000001  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(rdkey.o):
+    LOWCODE           Offs=000014  Size=00000A  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(read.o):
+    CODE              Offs=001635  Size=00005A  Align=00001  Fill=0000
+    INIT              Offs=00006E  Size=000005  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(regswap2.o):
+    CODE              Offs=00168F  Size=000016  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(return0.o):
+    CODE              Offs=0016A5  Size=000004  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(rwcommon.o):
+    CODE              Offs=0016A9  Size=000041  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(scanf.o):
+    CODE              Offs=0016EA  Size=000033  Align=00001  Fill=0000
+    BSS               Offs=000097  Size=000001  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(setjmp.o):
+    CODE              Offs=00171D  Size=000026  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(staspidx.o):
+    CODE              Offs=001743  Size=000016  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(staxsp.o):
+    CODE              Offs=001759  Size=00000B  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(strlen.o):
+    CODE              Offs=001764  Size=000016  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(strlower.o):
+    CODE              Offs=00177A  Size=000028  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(sub.o):
+    CODE              Offs=0017A2  Size=000014  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(tolower.o):
+    CODE              Offs=0017B6  Size=000010  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(toupper.o):
+    CODE              Offs=0017C6  Size=000010  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(udiv.o):
+    CODE              Offs=0017D6  Size=00004F  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(umod.o):
+    CODE              Offs=001825  Size=000011  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(ungetc.o):
+    CODE              Offs=001836  Size=00002E  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(vfprintf.o):
+    CODE              Offs=001864  Size=000060  Align=00001  Fill=0000
+    DATA              Offs=000083  Size=000008  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(vfscanf.o):
+    CODE              Offs=0018C4  Size=000033  Align=00001  Fill=0000
+    DATA              Offs=00008B  Size=000006  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(write.o):
+    CODE              Offs=0018F7  Size=00006A  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(zerobss.o):
+    INIT              Offs=000073  Size=000023  Align=00001  Fill=0000
+/home/bill/opt/cc65/lib/apple2enh.lib(zeropage.o):
+    ZEROPAGE          Offs=000000  Size=00001A  Align=00001  Fill=0000
+
+
+Segment list:
+-------------
+Name                   Start     End    Size  Align
+----------------------------------------------------
+EXEHDR                000000  000003  000004  00001
+ZEROPAGE              000080  000099  00001A  00001
+STARTUP               000803  00086C  00006A  00001
+LOWCODE               00086D  00088A  00001E  00001
+CODE                  00088B  0021EB  001961  00001
+RODATA                0021EC  0023BF  0001D4  00001
+DATA                  0023C0  002450  000091  00001
+ZPSAVE                002451  00246A  00001A  00001
+BSS                   00246B  002502  000098  00001
+INIT                  002503  00259C  00009A  00001
+
+
+Exports list by name:
+---------------------
+COUT                      00086D RLA    HOME                      000877 RLA    
+RDKEY                     000881 RLA    __BSS_RUN__               00246B RLA    
+__BSS_SIZE__              000098 REA    __CONSTRUCTOR_COUNT__     000002 REA    
+__CONSTRUCTOR_TABLE__     002599 RLA    __DESTRUCTOR_COUNT__      000000 REA    
+__DESTRUCTOR_TABLE__      0023C0 RLA    __EXEHDR__                000001 REA    
+__HIMEM__                 009600 REA    __INIT_RUN__              002503 RLA    
+__INIT_SIZE__             00009A REA    __LCADDR__                00D400 REA    
+__LCSIZE__                000C00 REA    __LC_LAST__               00D400 RLA    
+__LC_START__              00D400 RLA    __LOADADDR__              000803 REA    
+__LOADSIZE__              001CE8 REA    __MOVE_LAST__             00009A RLA    
+__MOVE_START__            000000 RLA    __STACKSIZE__             000800 REA    
+__STARTUP_RUN__           000803 RLA    __STARTUP__               000001 REA    
+__ZPSAVE_RUN__            002451 RLA    __ctype                   002290 RLA    
+__directerrno             00191F RLA    __dos_type                0024EA RLA    
+__errno                   0024EB RLA    __hextab                  002265 RLA    
+__longminstr              002275 RLA    __mappederrno             001927 RLA    
+__oserror                 002475 RLA    __osmaperrno              001DB2 RLA    
+__printf                  000E28 RLA    __scanf                   0010DA RLA    
+__seterrno                00184A RLA    __setjmp                  001FA8 RLA    
+_add_one_second           000AF4 RLA    _cgetc                    0018AD RLA    
+_clrscr                   000877 RLA    _ferror                   0019F4 RLA    
+_fgetc                    001937 RLA    _fwrite                   001A15 RLA    
+_isdigit                  001AF3 RLA    _isspace                  001B02 RLA    
+_isxdigit                 001B11 RLA    _kbhit                    001B20 RLA    
+_longjmp                  001BE9 RLA    _ltoa                     001C56 RLA    
+_main                     000A1C RLA    _print_time               000CB4 RLA    
+_printf                   001DD7 RLA    _puts                     001E5B RLA    
+_read                     001EC0 RLA    _read_interactively       000A44 RLA    
+_reprint_time             000D04 RLA    _scanf                    001F75 RLA    
+_stdin                    0023D8 RLA    _stdout                   0023DA RLA    
+_strlen                   001FEF RLA    _strlower                 002005 RLA    
+_tolower                  002041 RLA    _toupper                  002051 RLA    
+_ultoa                    001CAD RLA    _ungetc                   0020C1 RLA    
+_vfprintf                 002126 RLA    _vfscanf                  00214F RLA    
+_write                    002182 RLA    addeqysp                  001855 RLA    
+addysp                    001865 RLA    addysp1                   001864 RLA    
+aulong                    001872 RLA    axlong                    00188B RLA    
+axulong                   001884 RLA    booleq                    001CEF RLA    
+callmain                  001896 RLA    callmli                   00242C RLA    
+complax                   0018BF RLA    decaxy                    0018E6 RLA    
+decsp1                    0018EF RLA    decsp3                    0018F8 RLA    
+decsp4                    001905 RLA    decsp6                    001912 RLA    
+donelib                   0018C8 RLA    fdtab                     002409 RLA    
+getfd                     0019BB RLA    incsp1                    001ABE RLA    
+incsp2                    001ACC RLA    incsp3                    001ADA RLA    
+incsp4                    001ADF RLA    incsp5                    001AE4 RLA    
+incsp6                    001AE9 RLA    incsp8                    001AEE RLA    
+initdostype               00255D  LAI   initlib                   002503 RLA    
+initprompt                002571  LAI   jmpvec                    002429 RLA    
+ldax0sp                   001B5A RLA    ldaxi                     001B4D RLA    
+ldaxidx                   001B4F RLA    ldaxysp                   001B5C RLA    
+leaa0sp                   001B63 RLA    mliparam                  0024EF RLA    
+mul8x16                   001D61 RLA    mul8x16a                  001D6C RLA    
+mulax10                   001D99 RLA    negeax                    001BCB RLA    
+popax                     001AC5 RLA    popsreg                   001DC8 RLA    
+ptr1                      000088 RLZ    ptr2                      00008A RLZ    
+ptr3                      00008C RLZ    ptr4                      00008E RLZ    
+push1                     001E0A RLA    pusha                     001E13 RLA    
+pusha0                    001E27 RLA    pushax                    001E29 RLA    
+pusheax                   001C22 RLA    pushwysp                  001E41 RLA    
+regbank                   000094 RLZ    regsave                   000084 RLZ    
+regswap2                  001F1A RLA    return0                   001F30 RLA    
+rwcommon                  001F45 RLA    rwepilog                  001F68 RLA    
+rwprolog                  001F34 RLA    sp                        000080 RLZ    
+sreg                      000082 RLZ    staspidx                  001FCE RLA    
+stax0sp                   001FE4 RLA    staxysp                   001FE6 RLA    
+tmp1                      000090 RLZ    tmp2                      000091 RLZ    
+tmp3                      000092 RLZ    tmp4                      000093 RLZ    
+tosaddeax                 001B2F RLA    tosicmp0                  001A90 RLA    
+tosmuleax                 001B75 RLA    tossuba0                  00202D RLA    
+tosudiva0                 002061 RLA    tosudivax                 002063 RLA    
+tosumoda0                 0020B0 RLA    tosumulax                 001D1A RLA    
+udiv16                    002072 RLA    zerobss                   002576 RLA    
+
+
+
+Exports list by value:
+----------------------
+__DESTRUCTOR_COUNT__      000000 REA    __MOVE_START__            000000 RLA    
+__EXEHDR__                000001 REA    __STARTUP__               000001 REA    
+__CONSTRUCTOR_COUNT__     000002 REA    sp                        000080 RLZ    
+sreg                      000082 RLZ    regsave                   000084 RLZ    
+ptr1                      000088 RLZ    ptr2                      00008A RLZ    
+ptr3                      00008C RLZ    ptr4                      00008E RLZ    
+tmp1                      000090 RLZ    tmp2                      000091 RLZ    
+tmp3                      000092 RLZ    tmp4                      000093 RLZ    
+regbank                   000094 RLZ    __BSS_SIZE__              000098 REA    
+__INIT_SIZE__             00009A REA    __MOVE_LAST__             00009A RLA    
+__STACKSIZE__             000800 REA    __LOADADDR__              000803 REA    
+__STARTUP_RUN__           000803 RLA    COUT                      00086D RLA    
+HOME                      000877 RLA    _clrscr                   000877 RLA    
+RDKEY                     000881 RLA    _main                     000A1C RLA    
+_read_interactively       000A44 RLA    _add_one_second           000AF4 RLA    
+__LCSIZE__                000C00 REA    _print_time               000CB4 RLA    
+_reprint_time             000D04 RLA    __printf                  000E28 RLA    
+__scanf                   0010DA RLA    __seterrno                00184A RLA    
+addeqysp                  001855 RLA    addysp1                   001864 RLA    
+addysp                    001865 RLA    aulong                    001872 RLA    
+axulong                   001884 RLA    axlong                    00188B RLA    
+callmain                  001896 RLA    _cgetc                    0018AD RLA    
+complax                   0018BF RLA    donelib                   0018C8 RLA    
+decaxy                    0018E6 RLA    decsp1                    0018EF RLA    
+decsp3                    0018F8 RLA    decsp4                    001905 RLA    
+decsp6                    001912 RLA    __directerrno             00191F RLA    
+__mappederrno             001927 RLA    _fgetc                    001937 RLA    
+getfd                     0019BB RLA    _ferror                   0019F4 RLA    
+_fwrite                   001A15 RLA    tosicmp0                  001A90 RLA    
+incsp1                    001ABE RLA    popax                     001AC5 RLA    
+incsp2                    001ACC RLA    incsp3                    001ADA RLA    
+incsp4                    001ADF RLA    incsp5                    001AE4 RLA    
+incsp6                    001AE9 RLA    incsp8                    001AEE RLA    
+_isdigit                  001AF3 RLA    _isspace                  001B02 RLA    
+_isxdigit                 001B11 RLA    _kbhit                    001B20 RLA    
+tosaddeax                 001B2F RLA    ldaxi                     001B4D RLA    
+ldaxidx                   001B4F RLA    ldax0sp                   001B5A RLA    
+ldaxysp                   001B5C RLA    leaa0sp                   001B63 RLA    
+tosmuleax                 001B75 RLA    negeax                    001BCB RLA    
+_longjmp                  001BE9 RLA    pusheax                   001C22 RLA    
+_ltoa                     001C56 RLA    _ultoa                    001CAD RLA    
+__LOADSIZE__              001CE8 REA    booleq                    001CEF RLA    
+tosumulax                 001D1A RLA    mul8x16                   001D61 RLA    
+mul8x16a                  001D6C RLA    mulax10                   001D99 RLA    
+__osmaperrno              001DB2 RLA    popsreg                   001DC8 RLA    
+_printf                   001DD7 RLA    push1                     001E0A RLA    
+pusha                     001E13 RLA    pusha0                    001E27 RLA    
+pushax                    001E29 RLA    pushwysp                  001E41 RLA    
+_puts                     001E5B RLA    _read                     001EC0 RLA    
+regswap2                  001F1A RLA    return0                   001F30 RLA    
+rwprolog                  001F34 RLA    rwcommon                  001F45 RLA    
+rwepilog                  001F68 RLA    _scanf                    001F75 RLA    
+__setjmp                  001FA8 RLA    staspidx                  001FCE RLA    
+stax0sp                   001FE4 RLA    staxysp                   001FE6 RLA    
+_strlen                   001FEF RLA    _strlower                 002005 RLA    
+tossuba0                  00202D RLA    _tolower                  002041 RLA    
+_toupper                  002051 RLA    tosudiva0                 002061 RLA    
+tosudivax                 002063 RLA    udiv16                    002072 RLA    
+tosumoda0                 0020B0 RLA    _ungetc                   0020C1 RLA    
+_vfprintf                 002126 RLA    _vfscanf                  00214F RLA    
+_write                    002182 RLA    __hextab                  002265 RLA    
+__longminstr              002275 RLA    __ctype                   002290 RLA    
+__DESTRUCTOR_TABLE__      0023C0 RLA    _stdin                    0023D8 RLA    
+_stdout                   0023DA RLA    fdtab                     002409 RLA    
+jmpvec                    002429 RLA    callmli                   00242C RLA    
+__ZPSAVE_RUN__            002451 RLA    __BSS_RUN__               00246B RLA    
+__oserror                 002475 RLA    __dos_type                0024EA RLA    
+__errno                   0024EB RLA    mliparam                  0024EF RLA    
+__INIT_RUN__              002503 RLA    initlib                   002503 RLA    
+initdostype               00255D  LAI   initprompt                002571  LAI   
+zerobss                   002576 RLA    __CONSTRUCTOR_TABLE__     002599 RLA    
+__HIMEM__                 009600 REA    __LCADDR__                00D400 REA    
+__LC_LAST__               00D400 RLA    __LC_START__              00D400 RLA    
+
+
+
+Imports list:
+-------------
+COUT (cout.o):
+    read.o                    apple2/read.s(10)
+    write.o                   apple2/write.s(9)
+HOME (home.o):
+    clrscr.o                  apple2/clrscr.s(8)
+RDKEY (rdkey.o):
+    read.o                    apple2/read.s(10)
+__BSS_RUN__ ([linker generated]):
+    zerobss.o                 common/zerobss.s(8)
+__BSS_SIZE__ ([linker generated]):
+    zerobss.o                 common/zerobss.s(8)
+__CONSTRUCTOR_COUNT__ ([linker generated]):
+    condes.o                  runtime/condes.s(18)
+__CONSTRUCTOR_TABLE__ ([linker generated]):
+    condes.o                  runtime/condes.s(18)
+__DESTRUCTOR_COUNT__ ([linker generated]):
+    condes.o                  runtime/condes.s(19)
+__DESTRUCTOR_TABLE__ ([linker generated]):
+    condes.o                  runtime/condes.s(19)
+__EXEHDR__ (exehdr.o):
+    [linker generated]        /home/bill/opt/cc65/cfg/apple2enh.cfg(7)
+__HIMEM__ ([linker generated]):
+    [linker generated]        /home/bill/opt/cc65/cfg/apple2enh.cfg(19)
+__INIT_RUN__ ([linker generated]):
+    crt0.o                    apple2/crt0.s(13)
+__INIT_SIZE__ ([linker generated]):
+    crt0.o                    apple2/crt0.s(13)
+__LCADDR__ ([linker generated]):
+    [linker generated]        /home/bill/opt/cc65/cfg/apple2enh.cfg(21)
+__LCSIZE__ ([linker generated]):
+    [linker generated]        /home/bill/opt/cc65/cfg/apple2enh.cfg(21)
+__LC_LAST__ ([linker generated]):
+    crt0.o                    apple2/crt0.s(12)
+__LC_START__ ([linker generated]):
+    crt0.o                    apple2/crt0.s(12)
+__LOADADDR__ ([linker generated]):
+    exehdr.o                  apple2/exehdr.s(9)
+__LOADSIZE__ ([linker generated]):
+    exehdr.o                  apple2/exehdr.s(9)
+__MOVE_LAST__ ([linker generated]):
+    [linker generated]        /home/bill/opt/cc65/cfg/apple2enh.cfg(14)
+__MOVE_START__ ([linker generated]):
+    [linker generated]        /home/bill/opt/cc65/cfg/apple2enh.cfg(14)
+__STACKSIZE__ ([linker generated]):
+    [linker generated]        /home/bill/opt/cc65/cfg/apple2enh.cfg(19)
+__STARTUP_RUN__ ([linker generated]):
+    [linker generated]        /home/bill/opt/cc65/cfg/apple2enh.cfg(13)
+    [linker generated]        /home/bill/opt/cc65/cfg/apple2enh.cfg(12)
+__STARTUP__ (crt0.o):
+    alarmclock.o              alarmclock.s(13)
+__ZPSAVE_RUN__ ([linker generated]):
+    crt0.o                    apple2/crt0.s(14)
+    [linker generated]        /home/bill/opt/cc65/cfg/apple2enh.cfg(13)
+__ctype (ctype.o):
+    tolower.o                 common/tolower.s(8)
+    strlower.o                common/strlower.s(13)
+    isxdigit.o                /home/bill/opt/cc65/cc65/asminc/ctype.inc(9)
+    isspace.o                 /home/bill/opt/cc65/cc65/asminc/ctype.inc(9)
+    isdigit.o                 /home/bill/opt/cc65/cc65/asminc/ctype.inc(9)
+    toupper.o                 common/toupper.s(8)
+__directerrno (errno.o):
+    read.o                    /home/bill/opt/cc65/cc65/asminc/errno.inc(10)
+    write.o                   /home/bill/opt/cc65/cc65/asminc/errno.inc(10)
+__dos_type (dosdetect.o):
+    mli.o                     apple2/mli.s(7)
+__errno (errno.o):
+    _seterrno.o               /home/bill/opt/cc65/cc65/asminc/errno.inc(7)
+__hextab (_hextab.o):
+    ltoa.o                    common/ltoa.s(10)
+__longminstr (_longminstr.o):
+    ltoa.o                    common/ltoa.s(10)
+__mappederrno (errno.o):
+    rwcommon.o                /home/bill/opt/cc65/cc65/asminc/errno.inc(10)
+    write.o                   /home/bill/opt/cc65/cc65/asminc/errno.inc(10)
+__oserror (_oserror.o):
+    rwcommon.o                /home/bill/opt/cc65/cc65/asminc/errno.inc(7)
+    read.o                    /home/bill/opt/cc65/cc65/asminc/errno.inc(7)
+    errno.o                   /home/bill/opt/cc65/cc65/asminc/errno.inc(7)
+__osmaperrno (oserror.o):
+    errno.o                   /home/bill/opt/cc65/cc65/asminc/errno.inc(8)
+__printf (_printf.o):
+    vfprintf.o                common/vfprintf.s(10)
+__scanf (_scanf.o):
+    vfscanf.o                 common/_scanf.inc(17)
+__seterrno (_seterrno.o):
+    ungetc.o                  /home/bill/opt/cc65/cc65/asminc/errno.inc(9)
+    fwrite.o                  /home/bill/opt/cc65/cc65/asminc/errno.inc(9)
+    fmisc.o                   /home/bill/opt/cc65/cc65/asminc/errno.inc(9)
+    errno.o                   /home/bill/opt/cc65/cc65/asminc/errno.inc(9)
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(16)
+__setjmp (setjmp.o):
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(14)
+_add_one_second (thclock.o):
+    alarmclock.o              alarmclock.s(21)
+_cgetc (cgetc.o):
+    alarmclock.o              alarmclock.s(19)
+_clrscr (clrscr.o):
+    alarmclock.o              alarmclock.s(17)
+_ferror (fmisc.o):
+    vfscanf.o                 common/vfscanf.s(9)
+_fgetc (fgetc.o):
+    vfscanf.o                 common/vfscanf.s(9)
+_fwrite (fwrite.o):
+    vfprintf.o                common/vfprintf.s(10)
+_isdigit (isdigit.o):
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(17)
+_isspace (isspace.o):
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(18)
+_isxdigit (isxdigit.o):
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(19)
+_kbhit (kbhit.o):
+    alarmclock.o              alarmclock.s(18)
+_longjmp (longjmp.o):
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(15)
+_ltoa (ltoa.o):
+    _printf.o                 common/_printf.s(12)
+_main (alarmclock.o):
+    callmain.o                runtime/callmain.s(11)
+_print_time (thclock.o):
+    alarmclock.o              alarmclock.s(22)
+_printf (printf.o):
+    thclock.o                 thclock.s(13)
+    alarmclock.o              alarmclock.s(14)
+_puts (puts.o):
+    alarmclock.o              alarmclock.s(15)
+_read (read.o):
+    fgetc.o                   ../libwrk/apple2enh/fgetc.s(14)
+_read_interactively (thclock.o):
+    alarmclock.o              alarmclock.s(20)
+_reprint_time (thclock.o):
+    alarmclock.o              alarmclock.s(23)
+_scanf (scanf.o):
+    thclock.o                 thclock.s(14)
+_stdin (_file.o):
+    scanf.o                   common/scanf.s(10)
+_stdout (_file.o):
+    puts.o                    ../libwrk/apple2enh/puts.s(13)
+    printf.o                  common/printf.s(8)
+_strlen (strlen.o):
+    _printf.o                 common/_printf.s(13)
+    puts.o                    ../libwrk/apple2enh/puts.s(15)
+_strlower (strlower.o):
+    _printf.o                 common/_printf.s(13)
+_tolower (tolower.o):
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(20)
+_toupper (toupper.o):
+    thclock.o                 thclock.s(15)
+    alarmclock.o              alarmclock.s(16)
+_ultoa (ltoa.o):
+    _printf.o                 common/_printf.s(12)
+_ungetc (ungetc.o):
+    vfscanf.o                 common/vfscanf.s(9)
+_vfprintf (vfprintf.o):
+    printf.o                  common/printf.s(8)
+_vfscanf (vfscanf.o):
+    scanf.o                   common/scanf.s(10)
+_write (write.o):
+    fwrite.o                  common/fwrite.s(10)
+    puts.o                    ../libwrk/apple2enh/puts.s(16)
+addeqysp (addeqsp.o):
+    alarmclock.o              alarmclock.s(432)
+addysp (addysp.o):
+    incsp8.o                  runtime/incsp8.s(8)
+    incsp6.o                  runtime/incsp6.s(8)
+    incsp3.o                  runtime/incsp3.s(8)
+    fwrite.o                  common/fwrite.s(11)
+    scanf.o                   common/scanf.s(10)
+    printf.o                  common/printf.s(8)
+    incsp5.o                  runtime/incsp5.s(8)
+    incsp4.o                  runtime/incsp4.s(8)
+    thclock.o                 thclock.s(459)
+addysp1 (addysp.o):
+    sub.o                     runtime/sub.s(8)
+    lmul.o                    runtime/lmul.s(8)
+    ladd.o                    runtime/ladd.s(8)
+aulong (along.o):
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(1058)
+axlong (axlong.o):
+    _printf.o                 common/_printf.s(11)
+axulong (axlong.o):
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(1058)
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(1058)
+    _printf.o                 common/_printf.s(11)
+booleq (makebool.o):
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(1058)
+callmain (callmain.o):
+    crt0.o                    apple2/crt0.s(11)
+callmli (mli.o):
+    rwcommon.o                apple2/mli.inc(131)
+    write.o                   apple2/mli.inc(131)
+complax (compl.o):
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(1058)
+decaxy (decaxy.o):
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(1058)
+decsp1 (decsp1.o):
+    fgetc.o                   ../libwrk/apple2enh/fgetc.s(94)
+    alarmclock.o              alarmclock.s(432)
+decsp3 (decsp3.o):
+    thclock.o                 thclock.s(459)
+decsp4 (decsp4.o):
+    lpush.o                   runtime/lpush.s(11)
+    alarmclock.o              alarmclock.s(432)
+decsp6 (decsp6.o):
+    _printf.o                 common/_printf.s(11)
+    thclock.o                 thclock.s(459)
+donelib (condes.o):
+    crt0.o                    apple2/crt0.s(10)
+fdtab (filedes.o):
+    read.o                    apple2/filedes.inc(13)
+    write.o                   apple2/filedes.inc(13)
+getfd (filedes.o):
+    rwcommon.o                apple2/filedes.inc(14)
+incsp1 (incsp1.o):
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(1058)
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(1058)
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(1058)
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(1058)
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(1058)
+    alarmclock.o              alarmclock.s(432)
+incsp2 (incsp2.o):
+    popsreg.o                 runtime/popsreg.s(8)
+    staspidx.o                runtime/staspidx.s(8)
+    puts.o                    ../libwrk/apple2enh/puts.s(78)
+    thclock.o                 thclock.s(459)
+    thclock.o                 thclock.s(459)
+    thclock.o                 thclock.s(459)
+    thclock.o                 thclock.s(459)
+incsp3 (incsp3.o):
+    fgetc.o                   ../libwrk/apple2enh/fgetc.s(94)
+incsp4 (incsp4.o):
+    alarmclock.o              alarmclock.s(432)
+incsp5 (incsp5.o):
+    thclock.o                 thclock.s(459)
+incsp6 (incsp6.o):
+    fwrite.o                  common/fwrite.s(11)
+    vfprintf.o                common/vfprintf.s(9)
+incsp8 (incsp8.o):
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(1058)
+initlib (condes.o):
+    crt0.o                    apple2/crt0.s(10)
+jmpvec (jmpvec.o):
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(1058)
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(1058)
+ldax0sp (ldaxsp.o):
+    thclock.o                 thclock.s(459)
+    thclock.o                 thclock.s(459)
+    thclock.o                 thclock.s(459)
+ldaxi (ldaxi.o):
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(1058)
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(1058)
+ldaxidx (ldaxi.o):
+    thclock.o                 thclock.s(459)
+    thclock.o                 thclock.s(459)
+ldaxysp (ldaxsp.o):
+    fwrite.o                  common/fwrite.s(11)
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(1058)
+    puts.o                    ../libwrk/apple2enh/puts.s(78)
+    thclock.o                 thclock.s(459)
+    thclock.o                 thclock.s(459)
+    thclock.o                 thclock.s(459)
+    alarmclock.o              alarmclock.s(432)
+leaa0sp (leaaxsp.o):
+    fgetc.o                   ../libwrk/apple2enh/fgetc.s(94)
+    thclock.o                 thclock.s(459)
+mliparam (mli.o):
+    rwcommon.o                apple2/mli.inc(130)
+    write.o                   apple2/mli.inc(130)
+mul8x16 (mul8.o):
+    mul.o                     runtime/mul.s(8)
+mul8x16a (mul8.o):
+    mul.o                     runtime/mul.s(8)
+mulax10 (mulax10.o):
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(1058)
+negeax (lneg.o):
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(1058)
+popax (incsp2.o):
+    ungetc.o                  common/ungetc.s(10)
+    rwcommon.o                apple2/rwcommon.s(6)
+    ltoa.o                    common/ltoa.s(9)
+    longjmp.o                 common/longjmp.s(8)
+    _printf.o                 common/_printf.s(11)
+popsreg (popsreg.o):
+    mul8.o                    runtime/mul8.s(9)
+    mul.o                     runtime/mul.s(9)
+    umod.o                    runtime/umod.s(8)
+    udiv.o                    runtime/udiv.s(8)
+ptr1 (zeropage.o):
+    ungetc.o                  common/ungetc.s(11)
+    strlower.o                common/strlower.s(14)
+    setjmp.o                  common/setjmp.s(8)
+    rwcommon.o                /home/bill/opt/cc65/cc65/asminc/zeropage.inc(12)
+    read.o                    /home/bill/opt/cc65/cc65/asminc/zeropage.inc(12)
+    mulax10.o                 runtime/mulax10.s(9)
+    ltoa.o                    common/ltoa.s(11)
+    longjmp.o                 common/longjmp.s(9)
+    lmul.o                    runtime/lmul.s(9)
+    fwrite.o                  common/fwrite.s(14)
+    fmisc.o                   common/fmisc.s(9)
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(11)
+    _printf.o                 /home/bill/opt/cc65/cc65/asminc/zeropage.inc(12)
+    zerobss.o                 common/zerobss.s(9)
+    write.o                   /home/bill/opt/cc65/cc65/asminc/zeropage.inc(12)
+    vfprintf.o                common/vfprintf.s(11)
+    umod.o                    runtime/umod.s(9)
+    udiv.o                    runtime/udiv.s(9)
+    strlen.o                  common/strlen.s(8)
+    staspidx.o                runtime/staspidx.s(9)
+    scanf.o                   common/scanf.s(11)
+    puts.o                    ../libwrk/apple2enh/puts.s(11)
+    printf.o                  common/printf.s(9)
+    ldaxi.o                   runtime/ldaxi.s(8)
+    thclock.o                 thclock.s(11)
+ptr2 (zeropage.o):
+    strlower.o                common/strlower.s(14)
+    rwcommon.o                /home/bill/opt/cc65/cc65/asminc/zeropage.inc(12)
+    read.o                    /home/bill/opt/cc65/cc65/asminc/zeropage.inc(12)
+    ltoa.o                    common/ltoa.s(11)
+    longjmp.o                 common/longjmp.s(9)
+    _printf.o                 /home/bill/opt/cc65/cc65/asminc/zeropage.inc(12)
+    write.o                   /home/bill/opt/cc65/cc65/asminc/zeropage.inc(12)
+ptr3 (zeropage.o):
+    read.o                    /home/bill/opt/cc65/cc65/asminc/zeropage.inc(12)
+    ltoa.o                    common/ltoa.s(11)
+    lmul.o                    runtime/lmul.s(9)
+    vfscanf.o                 /home/bill/opt/cc65/cc65/asminc/zeropage.inc(12)
+ptr4 (zeropage.o):
+    mul8.o                    runtime/mul8.s(10)
+    mul.o                     runtime/mul.s(10)
+    lmul.o                    runtime/lmul.s(9)
+    umod.o                    runtime/umod.s(9)
+    udiv.o                    runtime/udiv.s(9)
+push1 (push1.o):
+    _printf.o                 common/_printf.s(11)
+    vfprintf.o                common/vfprintf.s(9)
+pusha (pusha.o):
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(1058)
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(1058)
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(1058)
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(1058)
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(1058)
+    thclock.o                 thclock.s(459)
+pusha0 (pushax.o):
+    push1.o                   runtime/push1.s(8)
+    fgetc.o                   ../libwrk/apple2enh/fgetc.s(94)
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(1058)
+    puts.o                    ../libwrk/apple2enh/puts.s(78)
+    thclock.o                 thclock.s(459)
+pushax (pushax.o):
+    fwrite.o                  common/fwrite.s(11)
+    fgetc.o                   ../libwrk/apple2enh/fgetc.s(94)
+    callmain.o                runtime/callmain.s(11)
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(1058)
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(1058)
+    _printf.o                 common/_printf.s(11)
+    scanf.o                   common/scanf.s(10)
+    puts.o                    ../libwrk/apple2enh/puts.s(78)
+    printf.o                  common/printf.s(8)
+    thclock.o                 thclock.s(459)
+    thclock.o                 thclock.s(459)
+    thclock.o                 thclock.s(459)
+    thclock.o                 thclock.s(459)
+    thclock.o                 thclock.s(459)
+    alarmclock.o              alarmclock.s(432)
+pusheax (lpush.o):
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(1058)
+    _printf.o                 common/_printf.s(11)
+pushwysp (pushwsp.o):
+    fwrite.o                  common/fwrite.s(11)
+    vfprintf.o                common/vfprintf.s(9)
+    puts.o                    ../libwrk/apple2enh/puts.s(78)
+    thclock.o                 thclock.s(459)
+    thclock.o                 thclock.s(459)
+regbank (zeropage.o):
+    regswap2.o                runtime/regswap2.s(8)
+    fgetc.o                   ../libwrk/apple2enh/fgetc.s(10)
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(10)
+    _printf.o                 /home/bill/opt/cc65/cc65/asminc/zeropage.inc(14)
+regsave (zeropage.o):
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(10)
+regswap2 (regswap2.o):
+    fgetc.o                   ../libwrk/apple2enh/fgetc.s(94)
+return0 (return0.o):
+    fmisc.o                   common/fmisc.s(8)
+rwcommon (rwcommon.o):
+    read.o                    apple2/read.s(9)
+    write.o                   apple2/write.s(8)
+rwepilog (rwcommon.o):
+    write.o                   apple2/write.s(8)
+rwprolog (rwcommon.o):
+    read.o                    apple2/read.s(9)
+    write.o                   apple2/write.s(8)
+sp (zeropage.o):
+    sub.o                     runtime/sub.s(9)
+    setjmp.o                  common/setjmp.s(8)
+    regswap2.o                runtime/regswap2.s(8)
+    popsreg.o                 runtime/popsreg.s(9)
+    lpush.o                   runtime/lpush.s(12)
+    longjmp.o                 common/longjmp.s(9)
+    lmul.o                    runtime/lmul.s(9)
+    ladd.o                    runtime/ladd.s(9)
+    icmp.o                    runtime/icmp.s(9)
+    fgetc.o                   ../libwrk/apple2enh/fgetc.s(10)
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(10)
+    _printf.o                 /home/bill/opt/cc65/cc65/asminc/zeropage.inc(11)
+    vfscanf.o                 /home/bill/opt/cc65/cc65/asminc/zeropage.inc(11)
+    vfprintf.o                common/vfprintf.s(11)
+    staxsp.o                  runtime/staxsp.s(8)
+    staspidx.o                runtime/staspidx.s(9)
+    scanf.o                   common/scanf.s(11)
+    pushwsp.o                 runtime/pushwsp.s(8)
+    pushax.o                  runtime/pushax.s(8)
+    pusha.o                   runtime/pusha.s(8)
+    printf.o                  common/printf.s(9)
+    leaaxsp.o                 runtime/leaaxsp.s(8)
+    ldaxsp.o                  runtime/ldaxsp.s(8)
+    incsp2.o                  runtime/incsp2.s(8)
+    incsp1.o                  runtime/incsp1.s(8)
+    decsp6.o                  runtime/decsp6.s(8)
+    decsp4.o                  runtime/decsp4.s(8)
+    decsp3.o                  runtime/decsp3.s(8)
+    decsp1.o                  runtime/decsp1.s(8)
+    crt0.o                    /home/bill/opt/cc65/cc65/asminc/zeropage.inc(11)
+    addysp.o                  runtime/addysp.s(8)
+    addeqsp.o                 runtime/addeqsp.s(8)
+    thclock.o                 thclock.s(10)
+    alarmclock.o              alarmclock.s(10)
+sreg (zeropage.o):
+    popsreg.o                 runtime/popsreg.s(9)
+    mul8.o                    runtime/mul8.s(10)
+    mul.o                     runtime/mul.s(10)
+    ltoa.o                    common/ltoa.s(11)
+    lpush.o                   runtime/lpush.s(12)
+    lneg.o                    runtime/lneg.s(11)
+    lmul.o                    runtime/lmul.s(9)
+    ladd.o                    runtime/ladd.s(9)
+    icmp.o                    runtime/icmp.s(9)
+    axlong.o                  runtime/axlong.s(8)
+    along.o                   runtime/along.s(8)
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(10)
+    _printf.o                 /home/bill/opt/cc65/cc65/asminc/zeropage.inc(11)
+    udiv.o                    runtime/udiv.s(9)
+staspidx (staspidx.o):
+    thclock.o                 thclock.s(459)
+stax0sp (staxsp.o):
+    thclock.o                 thclock.s(459)
+    alarmclock.o              alarmclock.s(432)
+staxysp (staxsp.o):
+    thclock.o                 thclock.s(459)
+    alarmclock.o              alarmclock.s(432)
+tmp1 (zeropage.o):
+    ungetc.o                  common/ungetc.s(11)
+    mul.o                     runtime/mul.s(10)
+    ltoa.o                    common/ltoa.s(11)
+    ladd.o                    runtime/ladd.s(9)
+    decaxy.o                  runtime/decaxy.s(8)
+    _printf.o                 /home/bill/opt/cc65/cc65/asminc/zeropage.inc(13)
+    staspidx.o                runtime/staspidx.s(9)
+tmp2 (zeropage.o):
+    lmul.o                    runtime/lmul.s(9)
+tmp3 (zeropage.o):
+    lmul.o                    runtime/lmul.s(9)
+tmp4 (zeropage.o):
+    lmul.o                    runtime/lmul.s(9)
+tosaddeax (ladd.o):
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(1058)
+tosicmp0 (icmp.o):
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(1058)
+tosmuleax (lmul.o):
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(1058)
+tossuba0 (sub.o):
+    _scanf.o                  ../libwrk/apple2enh/_scanf.s(1058)
+tosudiva0 (udiv.o):
+    thclock.o                 thclock.s(459)
+tosudivax (udiv.o):
+    fwrite.o                  common/fwrite.s(12)
+tosumoda0 (umod.o):
+    thclock.o                 thclock.s(459)
+tosumulax (mul.o):
+    fwrite.o                  common/fwrite.s(12)
+udiv16 (udiv.o):
+    umod.o                    runtime/umod.s(8)
+zerobss (zerobss.o):
+    crt0.o                    apple2/crt0.s(9)
+

@@ -10,8 +10,8 @@ ifndef CC65_TARGET
 	CC65_TARGET:=apple2enh
 endif
 
-PGM=alarmclk
-OBJS=alarmclk.o 12hourclk.o clkfreq.o
+PGM=alarm.clock
+OBJS=alarm.clock.o time.o noslotclock.o prodos.o trace.o
 
 PGM2=calibrate
 OBJS2=calibrate.o
@@ -20,11 +20,11 @@ CC=cl65
 AS=ca65
 LD=ld65
 
-CFLAGS=-t $(CC65_TARGET) -O
+CFLAGS=-t $(CC65_TARGET) -O -DTRACE
 ASFLAGS=-t $(CC65_TARGET)
 LDFLAGS=-t $(CC65_TARGET)
 
-DISK_VOL=alarmclk
+DISK_VOL=ALARM.CLOCK
 DISK=$(DISK_VOL).dsk
 
 AC=java -jar lib/AppleCommander-1.3.5.14.jar
@@ -32,19 +32,17 @@ MKDISK=$(AC) -pro140 $(DISK) $(DISK_VOL)
 
 ########################################
 
-all: $(DISK)
-
-$(DISK): $(PGM) $(PGM2)
-	$(AC) -d $(DISK) $<
-	$(AC) -cc65 $(DISK) $< BIN < $<
-	$(AC) -d $(DISK) $(PGM2)
-	$(AC) -cc65 $(DISK) $(PGM2) BIN < $(PGM2)
+all: $(PGM) $(PGM2)
 
 $(PGM): $(OBJS)
 	$(CC) $(LDFLAGS) -o $@ $^
+	$(AC) -d $(DISK) $@
+	$(AC) -cc65 $(DISK) $@ BIN < $@
 
 $(PGM2): $(OBJS2)
 	$(CC) $(LDFLAGS) -o $@ $^
+	$(AC) -d $(DISK) $@
+	$(AC) -cc65 $(DISK) $@ BIN < $@
 
 # Compile and assemble rules use the defuault rules after CC and CFLAGS
 # are set.
